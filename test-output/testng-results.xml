@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-07T13:49:56 IST" name="Suite" finished-at="2026-03-07T13:50:59 IST" duration-ms="63270">
+    <groups>
+    </groups>
+    <test started-at="2026-03-07T13:49:56 IST" name="EmployeeTest" finished-at="2026-03-07T13:50:43 IST" duration-ms="46887">
+      <class name="com.ohrm.qa.tests.EmployeeTest">
+        <test-method is-config="true" signature="doLogin()[pri:0, instance:com.ohrm.qa.tests.EmployeeTest@3e44f2a5]" started-at="2026-03-07T13:49:56 IST" name="doLogin" finished-at="2026-03-07T13:50:17 IST" duration-ms="20791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="createEmployee1()[pri:1, instance:com.ohrm.qa.tests.EmployeeTest@3e44f2a5]" started-at="2026-03-07T13:50:17 IST" name="createEmployee1" description="Creating first employee" finished-at="2026-03-07T13:50:38 IST" duration-ms="20859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee1 -->
+        <test-method signature="searchNewUserByValidID()[pri:2, instance:com.ohrm.qa.tests.EmployeeTest@3e44f2a5]" started-at="2026-03-07T13:50:38 IST" name="searchNewUserByValidID" description="Searching for last created user by EmpId" finished-at="2026-03-07T13:50:43 IST" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNewUserByValidID -->
+      </class> <!-- com.ohrm.qa.tests.EmployeeTest -->
+    </test> <!-- EmployeeTest -->
+    <test started-at="2026-03-07T13:49:56 IST" name="LoginTest" finished-at="2026-03-07T13:50:59 IST" duration-ms="63270">
+      <class name="com.ohrm.qa.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:49:57 IST" name="setup" finished-at="2026-03-07T13:50:20 IST" duration-ms="23890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLoginUser(java.util.HashMap)[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:20 IST" name="InvalidLoginUser" data-provider="getInvalidloginData" finished-at="2026-03-07T13:50:25 IST" duration-ms="4506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Deeps@1995, username=deepamattur}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:25 IST" name="closeBrowser" finished-at="2026-03-07T13:50:25 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:25 IST" name="setup" finished-at="2026-03-07T13:50:37 IST" duration-ms="11668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLoginUser(java.util.HashMap)[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:37 IST" name="InvalidLoginUser" data-provider="getInvalidloginData" finished-at="2026-03-07T13:50:41 IST" duration-ms="3985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sat@1994, username=satishpatil}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:41 IST" name="closeBrowser" finished-at="2026-03-07T13:50:41 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:41 IST" name="setup" finished-at="2026-03-07T13:50:51 IST" duration-ms="10104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginUser()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:51 IST" name="validLoginUser" finished-at="2026-03-07T13:50:59 IST" duration-ms="7530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.qa.tests.LoginTest@79defdc]" started-at="2026-03-07T13:50:59 IST" name="closeBrowser" finished-at="2026-03-07T13:50:59 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ohrm.qa.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
